@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+
+    <!-- Boot Strap css Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+
+
+    <!-- JQuery links  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Handel Barjs -->
+    <script src="https://twitter.github.io/typeahead.js/js/handlebars.js"></script>
+
+    <!-- Font ASUM-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet"
+          href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"
+          integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
+            integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+    <!-- select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
+    <!-- ToASTR -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css"
+          integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">    
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+<body>
+
+<style>
+    #card {
+        border: solid 2px lightgrey;
+        width: 100%;
+        height: 13em;
+        border-radius: 6px;
+        padding-left: 2%;
+        padding-top: 2%;
+        font-family: arial;
+
+    }
+
+    #new {
+        color: purple
+    }
+
+    #role {
+        font-weight: bold;
+        margin-bottom: 10px;
+
+    }
+
+    #about {
+        color: grey;
+        margin-bottom: 10px;
+
+    }
+    #company {
+        margin-bottom: 10px;
+
+    }
+
+    #box {
+        display: flex;
+    }
+
+    #last-seen {
+        color: grey;
+    }
+
+    #more {
+        margin-left: 4%;
+    
+    }
+    .logo {					
+		float:left;
+					}
+#logo {
+		height:600%;
+		margin-top:-15px
+		}
+.custom-margin-left {
+    margin-left: -100px;
+  }
+
+</style>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<nav class="navbar navbar-expand navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="{{url_for('static', filename='logoo.png')}}" width="180" height="60" alt=""/> </a>  
+                                                                      
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="btn-example1">L'inflation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="btn-example2">La samir</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="btn-example3">Le conseil de la concurrence</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="btn-example4">La charte de l'investisement</a>
+        </li>
+
+        <!-- Ajoutez plus d'exemples d'articles ici -->
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    $(document).ready(function() {
+      // Gestionnaire d'événement pour le bouton "Exemple 1"
+      $("#btn-example1").click(function() {
+        $("#query").val("L'inflation"); // Définissez le terme de recherche approprié ici
+        handleGoClick(); // Effectuez la recherche et affichez les résultats
+      });
+  
+      // Gestionnaire d'événement pour le bouton "Exemple 2"
+      $("#btn-example2").click(function() {
+        $("#query").val("La samir"); // Définissez le terme de recherche approprié ici
+        handleGoClick(); // Effectuez la recherche et affichez les résultats
+      });
+
+      $("#btn-example3").click(function() {
+        $("#query").val("Le conseil de la concurrence"); // Définissez le terme de recherche approprié ici
+        handleGoClick(); // Effectuez la recherche et affichez les résultats
+      });
+
+      $("#btn-example4").click(function() {
+        $("#query").val("La charte de l'investisement"); // Définissez le terme de recherche approprié ici
+        handleGoClick(); // Effectuez la recherche et affichez les résultats
+      });
+
+      // Ajoutez plus de gestionnaires d'événements pour d'autres boutons d'exemple
+    });
+  </script>
+
+  
+
+<div class="container">
+    <br/>
+    <br/>
+    <br/>
+    <div style="text-align: center;">
+        <h1 style="font-size: 30px; color:darkred; margin-top:-40px ;">Trouvez rapidement les articles les plus informatifs et intéressants qui répondent à vos questions</h1>
+        <br/>
+        <div class="row" style="margin-left: -75px;">
+            <div class="col-6 custom-margin-right">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <b>Afficher les articles par :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input class="form-check-input" type="radio" name="option" value="Pertinence"> Pertinence
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-6 custom-margin-left">
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="option" value="Date"> Date
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <input id="query" class="form-control basicAutoComplete" type="text" id="search_book"
+                           placeholder="Search Article" style="margin-top:25px ;">
+                </div>
+
+                <div class="col-2">
+                    <a onclick="handleGoClick()" href="javascript:void(0)" class="btn btn-primary" style="margin-top:25px ;">Go</a>
+                </div>
+                <div id="result"></div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <br/>
+
+
+    <div class="container">
+        <h6 id="total-hits">  <span id="total-results"></span></h6>
+        <div id="render-template"></div>
+        <div id="pagination-buttons">
+            <button id="prev-button" class="btn btn-secondary" disabled>Précédent</button>
+            <button id="next-button" class="btn btn-primary">Suivant</button>
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    function handleGoClick() {
+        var radioButtons = document.getElementsByName('option');
+        var selectedValue = '';
+
+        // Trouver la radio sélectionnée
+        for (var i = 0; i < radioButtons.length; i++) {
+            if (radioButtons[i].checked) {
+                selectedValue = radioButtons[i].value;
+                break;
+            }
+        }
+
+        // Appeler la fonction appropriée en fonction de la radio sélectionnée
+        if (selectedValue === 'Pertinence') {
+            fn_search_pertinance();
+        } 
+        else if (selectedValue === 'Date') {
+            fn_search_date();
+        }
+    }
+</script>
+
+<footer style="height: 100px;"></footer>
+
+
+{%raw%}
+<script>
+    // Ajouter un écouteur d'événement pour le pressage de la touche "Entrée" dans le clavier
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter') {
+        // Appeler la fonction fn_search() lorsque la touche "Entrée" est pressée
+        handleGoClick();
+      }
+    });
+</script>
+   
+
+<script id="template-cards" type="text/x-handlebars-template">
+    <main>
+        {{#each data}}
+        <div id='card'>
+            <div id='role'>
+                {{this.post_title}}
+                <span style="float: right; margin-right: 8px;">
+                            Score <span class="badge badge-success">{{this._score}}</span>
+                        </span>
+            </div>
+            <div id='about'>
+                {{this.summary}}
+            </div>
+            
+            <div id="company">
+                <a href="{{this.lien}}">Découvrez l'article complet ici :</a>
+            </div>
+            <div id='box'>
+                <div id='last-seen'>
+                    {{this.date}}
+                </div>
+            </div>
+           
+
+        </div>
+
+        <br/>
+
+        {{/each}}
+
+    </main>
+</script>
+{%endraw%}
+
+
+<script>
+    const $source = document.querySelector('#query');
+    const $result = document.querySelector('#result');
+    $("#result").hide();
+
+
+    const typeHandler = function(e) {
+        $result.innerHTML = e.target.value;
+        console.log(e.target.value);
+
+        $.ajax({
+            url: "/pipe",
+            type : 'POST',
+            cache: false,
+            data:{'data': e.target.value},
+            success: function(html)
+            {
+                console.log(html)
+                var data = html.auto_complete.buckets
+                var _ = []
+
+                $.each(data, (index, value)=>{
+                    _.push(value.key)
+                });
+                console.log(_)
+                $( "#query" ).autocomplete({
+                    source: _
+                });
+            }
+        });
+    }
+
+    $source.addEventListener('input', typeHandler) // register for oninput
+    $source.addEventListener('propertychange', typeHandler) // for IE8
+
+    function btn_submit()
+    {
+        sessionStorage.setItem('post_title', $("#query").val() )
+    }
+
+
+    $( document ).ready(function() {
+
+        var data = sessionStorage.getItem('post_title')
+        $("#query").val(data);
+    });
+
+
+
+</script>
+
+
+
+
+ <script>
+
+
+    var Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 5000
+    });
+
+    function myFunc(vars) {
+        return vars
+    }
+
+    
+    $("#total-hits").hide()
+
+    var currentPage = 1;
+    var pageSize = 10 ;
+    var totalResults = 0;
+    var totalPages = 0;
+
+
+    function fn_search_pertinance() {
+
+    let payload = {
+      "user_inputs": $("#query").val()
+}
+    $.ajax({
+    url: "/get_results_pertinance",
+    type: 'POST',
+    cache: false,
+    data: {'data': JSON.stringify(payload)},
+    success: function (response) {
+        console.log(response);
+
+        totalResults = response.data.length;
+        totalPages = Math.ceil(totalResults / pageSize);
+
+    // Afficher uniquement les articles de la page actuelle
+        var startIndex = (currentPage - 1) * pageSize;
+        var endIndex = startIndex + pageSize;
+        var currentPageResults = response.data.slice(startIndex, endIndex);
+
+        templateScript = Handlebars.compile($('#template-cards').html());
+        $("#render-template").html(templateScript({ data: currentPageResults }));
+
+    // Mettre à jour le nombre total de résultats affichés
+
+    // Gérer l'état des boutons de pagination
+        $("#prev-button").prop("disabled", currentPage === 1);
+        $("#next-button").prop("disabled", currentPage === totalPages)
+
+        
+        $("#total-hits").show()
+
+    },
+    error: function (response) {
+
+        toastr.error('No Result Found') // error, info, warning
+
+    }
+});
+
+}
+
+
+    function fn_search_date() {
+
+        let payload = {
+            "user_inputs": $("#query").val()
+        }
+        $.ajax({
+            url: "/get_results_data_date",
+            type: 'POST',
+            cache: false,
+            data: {'data': JSON.stringify(payload)},
+            success: function (response) {
+                console.log(response);
+
+                totalResults = response.data.length;
+                totalPages = Math.ceil(totalResults / pageSize);
+
+            // Afficher uniquement les articles de la page actuelle
+                var startIndex = (currentPage - 1) * pageSize;
+                var endIndex = startIndex + pageSize;
+                var currentPageResults = response.data.slice(startIndex, endIndex);
+
+                templateScript = Handlebars.compile($('#template-cards').html());
+                $("#render-template").html(templateScript({ data: currentPageResults }));
+
+            // Mettre à jour le nombre total de résultats affichés
+
+            // Gérer l'état des boutons de pagination
+                $("#prev-button").prop("disabled", currentPage === 1);
+                $("#next-button").prop("disabled", currentPage === totalPages)
+
+                
+                $("#total-hits").show()
+
+            },
+            error: function (response) {
+
+                toastr.error('No Result Found') // error, info, warning
+
+            }
+        });
+
+    }
+
+    function fn_search() {
+
+        let payload = {
+        "user_inputs": $("#query").val()
+}
+        $.ajax({
+            url: "/get_results",
+            type: 'POST',
+            cache: false,
+            data: {'data': JSON.stringify(payload)},
+            success: function (response) {
+              console.log(response);
+
+              totalResults = response.data.length;
+              totalPages = Math.ceil(totalResults / pageSize);
+
+    // Afficher uniquement les articles de la page actuelle
+              var startIndex = (currentPage - 1) * pageSize;
+              var endIndex = startIndex + pageSize;
+              var currentPageResults = response.data.slice(startIndex, endIndex);
+
+              templateScript = Handlebars.compile($('#template-cards').html());
+              $("#render-template").html(templateScript({ data: currentPageResults }));
+
+    // Mettre à jour le nombre total de résultats affichés
+
+    // Gérer l'état des boutons de pagination
+              $("#prev-button").prop("disabled", currentPage === 1);
+              $("#next-button").prop("disabled", currentPage === totalPages)
+
+        
+              $("#total-hits").show()
+
+    },
+            error: function (response) {
+
+             toastr.error('No Result Found') // error, info, warning
+
+    }
+});
+
+}
+    $(document).ready(function() {
+    // Gestionnaire d'événement pour le bouton "Suivant"
+    $("#next-button").click(function() {
+        if (currentPage < totalPages) {
+            currentPage++;
+            handleGoClick();
+        }
+    });
+
+    // Gestionnaire d'événement pour le bouton "Précédent"
+    $("#prev-button").click(function() {
+        if (currentPage > 1) {
+            currentPage--;
+            handleGoClick();
+        }
+    });
+});
+
+
+    Handlebars.registerHelper('escape', function (variable) {
+        return variable.replace(/(['"])/g, '\\$1');
+    });
+
+    Handlebars.registerHelper('if_cond', function (v1, operator, v2, options) {
+        switch (operator) {
+            case '==':
+                return (v1 == v2) ? options.fn(this) : options.inverse(this);
+            case '===':
+                return (v1 === v2) ? options.fn(this) : options.inverse(this);
+            case '!=':
+                return (v1 != v2) ? options.fn(this) : options.inverse(this);
+            case '!==':
+                return (v1 !== v2) ? options.fn(this) : options.inverse(this);
+            case '<':
+                return (v1 < v2) ? options.fn(this) : options.inverse(this);
+            case '<=':
+                return (v1 <= v2) ? options.fn(this) : options.inverse(this);
+            case '>':
+                return (v1 > v2) ? options.fn(this) : options.inverse(this);
+            case '>=':
+                return (v1 >= v2) ? options.fn(this) : options.inverse(this);
+            case '&&':
+                return (v1 && v2) ? options.fn(this) : options.inverse(this);
+            case '||':
+                return (v1 || v2) ? options.fn(this) : options.inverse(this);
+            default:
+                return options.inverse(this);
+        }
+    });
+
+</script>
+
+</body>
+</html>
